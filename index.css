@@ -103,7 +103,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .main_left_content{
-    font-size: 55px;
+    font-size: 50px;
     line-height: 60px;
     font-weight:bold;
     font-family: poppins, sans-serif;
@@ -575,6 +575,7 @@ text-align: center;
     color: #00FF00;
     padding-left: 15%;
     padding-right: 15%;
+    font-weight: bold;
 }
 
 .steroids-write{
