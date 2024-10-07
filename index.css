@@ -23,21 +23,47 @@ body{
 
 .top-head{
     margin: 0 auto;
-    font-size: 22px;
+   
+    align-items: center;
+    font-size: 17px;
     line-height: 26px;
     color: white;
     font-family: poppins, sans-serif;
     padding: 5px;
     text-align: center;
    border: 1px solid #00ff00;
-   border-radius: 5px;
+   border-radius: 15px;
    background-color:#087B08 ;
-   width: 25%;
+   width: 45%;
    box-sizing: border-box;
    }
 
+   .parent-container{
+    width: 80%;
+    height: 80%;
+    margin-top: 100px; /* Adjust the value as needed */
+    display: block; /* Makes the image behave like a block-level element */
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+  
+   
+
+   .video-gradient{
+    border: 3px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+   
+
+  
+     border-image-source:linear-gradient(to bottom, #00FF00 0%, #000000 44%, #000000 55%, #00FF00 100%);
+   
+   
+   }
+
 .photo-content{
-  margin-top: 100px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
 }   
@@ -48,9 +74,19 @@ body{
     margin-top: 50px;
 }   
 
-.right-image img{
-    height: 500px;
-    width: 500px;
+.list{
+    list-style-type: none;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: poppins, sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 35px;
+
+}
+
+.list li{
+    margin-bottom: 15px;
 }
 .main-left-first{
     background: linear-gradient(to bottom, #00ff00 0%, #00B500 100%); /* Gradient from top to bottom */
@@ -81,7 +117,10 @@ body{
     font-family: poppins, sans-serif;
     text-align: center;
     padding-top: 30px;
+    letter-spacing: 2px;
 }
+
+
 
 
 .line-img{
@@ -89,9 +128,11 @@ body{
     position: relative;
     left: 8rem;
 }
+
 .button-decoration{
     text-decoration: none;
 }
+
 .call_book{
     display: flex;
     justify-content: center;
@@ -148,6 +189,8 @@ body{
     font-size: 35px;
     text-align: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
 }
 
@@ -467,10 +510,7 @@ text-align: center;
     right: -1rem;
 }
 
-.viral3-img{
-    height: 50px;
-    width: 50px;
-}
+
 .viral-main img{
     width: 22%;
     min-width: 100px;
@@ -519,6 +559,44 @@ text-align: center;
     background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
+}
+
+.steroids{
+    color: white;
+    font-family: poppins , sans-serif;
+    margin-top: 50px;
+}
+
+.steroids-main{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 80px;
+    color: #00FF00;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.steroids-write{
+    margin-top: 50px;
+}
+
+.steroids-write li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-size: 22px;
+    padding-left: 15%;
+    padding-right: 15%;
+    line-height: 30px;
+    
+}
+
+.steroids-content{
+    font-size: 22px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 50px;
+    line-height: 30px;
 }
 
 .footer{
@@ -589,10 +667,10 @@ text-align: center;
 
     .top-head{
        
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 17px;
+        line-height: 20px;
       
-       width: 30%;
+       width: 55%;
        
        }
 
@@ -644,10 +722,10 @@ text-align: center;
     }
     .top-head{
        
-        font-size: 22px;
+        font-size: 16px;
         line-height: 26px;
       
-       width: 50%;
+       width: 70%;
        
        }
        /* .calender-head{
@@ -726,10 +804,10 @@ text-align: center;
     }
     .top-head{
        
-        font-size: 22px;
+        font-size: 16px;
         line-height: 26px;
       
-       width: 55%;
+       width: 70%;
        
        }
     
@@ -819,6 +897,20 @@ text-align: center;
     font-size: 40px;
 }
 
+.main_left_content{
+    font-size: 45px;
+    line-height: 60px;
+    font-weight:bold;
+    font-family: poppins, sans-serif;
+    /* color: #00ff00; */
+    text-align: center;
+  
+}
+
+.list{
+    font-size: 25px;
+}
+
 }
 
 
@@ -855,10 +947,10 @@ text-align: center;
     }
     .top-head{
        
-        font-size: 20px;
+        font-size: 16px;
         line-height: 25px;
       
-       width: 60%;
+       width: 80%;
        
        }
        .left-content{
@@ -888,6 +980,16 @@ text-align: center;
     }
     .viral-main img{
         width: 40%;
+    }
+    .main_left_content{
+        font-size: 35px;
+        line-height: 45px;
+       
+      
+    }
+    
+    .list{
+        font-size: 25px;
     }
 }
 @media screen and (max-width: 540px){
@@ -985,10 +1087,10 @@ text-align: center;
 }
 .top-head{
        
-    font-size: 16px;
+    font-size: 15px;
     line-height: 20px;
   
-   width: 80%;
+   width: 90%;
    
    }
 
@@ -1019,5 +1121,28 @@ text-align: center;
         top: -3.5rem;
         left: -6rem;
     }
+    .main_left_content{
+        font-size: 25px;
+        line-height: 40px;
+       
+      
+    }
+    
+    .list{
+        font-size: 20px;
+    }
 
+}
+
+@media screen and (max-width: 380px){
+    .main_left_content{
+        font-size: 25px;
+        line-height: 40px;
+       
+      
+    }
+    
+    .list{
+        font-size: 20px;
+    }
 }
