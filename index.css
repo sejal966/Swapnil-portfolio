@@ -41,7 +41,7 @@ body{
    .parent-container{
     width: 80%;
     height: 80%;
-    margin-top: 100px; /* Adjust the value as needed */
+    margin-top: 80px; /* Adjust the value as needed */
     display: block; /* Makes the image behave like a block-level element */
     margin-left: auto;
     margin-right: auto;
@@ -991,7 +991,29 @@ text-align: center;
     
     .list{
         font-size: 25px;
+        padding-left: 5%;
+        padding-right:5%;
     }
+    .steroids-main{
+      
+        padding-left:5%;
+        padding-right: 5%;
+       
+    }
+    .steroids-write li{
+       
+        padding-left: 5%;
+        padding-right: 5%;
+        
+        
+    }
+    .steroids-content{
+       
+        padding-left: 5%;
+        padding-right: 5%;
+       
+    }
+    
 }
 @media screen and (max-width: 540px){
     .line-img{
@@ -1039,6 +1061,14 @@ text-align: center;
     .copyright{
         font-size: 10px;
     }
+    .parent-container{
+        width: 90%;
+        height: 90%;
+        margin-top: 50px; /* Adjust the value as needed */
+        display: block; /* Makes the image behave like a block-level element */
+        margin-left: auto;
+        margin-right: auto;
+       }
 }
 
 @media screen and (max-width: 400px){
