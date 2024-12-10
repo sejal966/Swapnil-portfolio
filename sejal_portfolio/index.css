@@ -223,7 +223,7 @@ body{
 
 } */
 
-/* .expert-head{
+.expert-head{
     padding-top: 100px;
     background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.607) 100%); 
     -webkit-background-clip: text;
@@ -237,7 +237,7 @@ body{
     justify-content: center;
     align-items: center;
     font-weight: bold;
-} */
+}
 
 .color{
     background: linear-gradient(to bottom, rgb(30, 211, 255) 0%, rgb(4, 146, 182) 100%); /* Gradient from top to bottom */
@@ -247,7 +247,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 
-/* .expert-main{
+.expert-main{
     display: flex;
     color: white;
     justify-content: space-between;
@@ -257,9 +257,9 @@ body{
     margin-top: 40px;
 
 
-} */
+}
 
-/* .expert-main-first, .expert-main-second, .expert-main-third{
+.expert-main-first, .expert-main-second, .expert-main-third{
     margin: 0 auto;
   padding-top: 20px;
   padding-bottom:20px;
@@ -280,7 +280,7 @@ width: 30%;
 
  .image1{
     margin-right: 10px;
- } */
+ }
 
  .why-me{
     
@@ -746,6 +746,11 @@ text-align: center;
    
     
   }
+  @media screen and (max-width: 1000px){
+    .about-main{
+        margin-top: -5rem;
+     }
+  }
 
   
 @media screen and (max-width: 850px){
@@ -876,9 +881,7 @@ text-align: center;
         flex-direction: column;
         row-gap: 1rem;
 
-        /* justify-content: space-between; */
-        /* text-align: center; */
-        /* align-items: center; */
+       
         
         
     
@@ -886,7 +889,7 @@ text-align: center;
     }
 
     .left-image{
-        margin-top: -3rem;
+        margin-top: -2rem;
     }
     .book-line{
         width: 120px;
@@ -929,16 +932,18 @@ text-align: center;
      }
 
      .why-me{
-        margin-top: -6rem;
+        margin-top: 10px;
      }
-
+     .about-main{
+        margin-top: -5rem;
+     }
      .why-me-main{
   
         display: flex;
         color: white;
-       flex-direction: column;
-       row-gap: 1rem;
-        margin-top: 10px;
+        flex-direction: column;
+        row-gap: 1rem;
+        margin-top: 80px;
         font-weight: bold;
         line-height: 30px;
         margin-bottom: 100px;
