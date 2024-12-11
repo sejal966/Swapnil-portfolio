@@ -34,7 +34,7 @@ body{
    border: 1px solid rgb(30, 211, 255);
    border-radius: 15px;
    background-color:rgb(5, 119, 148) ;
-   width: 25%;
+   width: 30%;
    box-sizing: border-box;
    }
 
@@ -784,7 +784,7 @@ text-align: center;
         align-items: center;
         flex-wrap: wrap;
        
-        margin-top: 80px;
+        margin-top: 50px;
     }
     .intro{
         margin-top: 30px;
@@ -936,6 +936,9 @@ text-align: center;
      }
      .about-main{
         margin-top: -5rem;
+     }
+     .results-main{
+        margin-top: 1rem;
      }
      .why-me-main{
   
@@ -1175,12 +1178,12 @@ text-align: center;
         font-size: 15px;
         line-height: 20px;
       
-       width: 50%;
+       width: 60%;
        
        }
        .results-first img{
-        height: 350px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
     }
     .results-second img{
         height: 300px;
